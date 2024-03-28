@@ -1,8 +1,8 @@
-class settings_struct {
-  videoElement = null;
-  audioElement = null;
-  musicVolume = 0.9;
-  description_Texts = ['.zay , 0z'];
+class Settings {
+  videoElement: HTMLVideoElement | null = null;
+  audioElement: HTMLAudioElement | null = null;
+  musicVolume: number = 0.9;
+  descriptionTexts: string[] = ['.zay', '0z'];
 }
 
-const settings = new settings_struct();
+const settingsInstance = new Settings();
